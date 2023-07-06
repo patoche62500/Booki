@@ -172,7 +172,6 @@ header{
 }
 
 ul{
-
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -181,7 +180,6 @@ ul{
     height: 35px;
     list-style: none;
     padding: 0px 25px 0px 25px;
-    
 }
 
 a{
