@@ -219,3 +219,29 @@ nav{
     gap: 10px;
     padding:30px;
 }
+
+/*Section sous le header*/
+.info-group{
+    gap:35px;
+    height:281px;
+}
+
+.headline{
+    gap:8px;
+}
+
+.filtre-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.filtre-element{
+    
+}
+
+/*debug
+margin:5px;
+border: 1px solid rgb(253, 0, 0);
+*/
