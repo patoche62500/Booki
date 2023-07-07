@@ -161,6 +161,12 @@ body {
     /* ... */
 }
 
+/* Global Parametre */
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
 /* Header */
 header{
     display: flex;
@@ -171,14 +177,13 @@ header{
     height: 79px;
 }
 
-ul{
+.nav-container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 68px;
     width: 325px;
     height: 35px;
-    list-style: none;
     padding: 0px 25px 0px 25px;
 }
 
@@ -187,19 +192,19 @@ a{
     text-decoration: none;
 }
 
-li a:hover{
+.nav-element a:hover{
     color: #0065FC;
 }
 
-li a:hover,li{
+.nav-element a:hover,
+.nav-element{
     border-top: 2px #0065FC solid;
     padding-bottom: 25px;
     padding-top:13px;
 }
 
-li{
+.nav-element{
     border-top: 2px rgb(255, 255, 255) solid;
-    
 }
 
 nav{
@@ -232,13 +237,19 @@ nav{
 
 .filtre-container{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
     gap: 15px;
+    width: 758px;
+    
 }
 
 .filtre-element{
-    
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
 }
 
 /*debug
