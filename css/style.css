@@ -260,7 +260,6 @@ form{
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
-    
 }
 
 .filtre-element:hover{
@@ -274,7 +273,9 @@ form{
     height: 24px;
 }
 /*debug
+
 margin:5px;
 border: 1px solid rgb(253, 0, 0);
 */
 
+@import '/css/';
