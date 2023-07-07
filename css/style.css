@@ -226,13 +226,23 @@ nav{
 }
 
 /*Section sous le header*/
-.info-group{
+.infogroup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     gap:35px;
     height:281px;
 }
 
 .headline{
-    gap:8px;
+    gap:8px;    
+    height: 53px;
+}
+
+form{
+    display: flex;
+    width: 377px;
+    height:49px;
 }
 
 .filtre-container{
@@ -242,7 +252,7 @@ nav{
     align-content: center;
     gap: 15px;
     width: 758px;
-    
+    height: 50px;
 }
 
 .filtre-element{
@@ -250,14 +260,21 @@ nav{
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
-    height:fit-content;
+    
 }
 
 .filtre-element:hover{
     background-color: aqua;
 }
 
+.infogroup-element{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    height: 24px;
+}
 /*debug
 margin:5px;
 border: 1px solid rgb(253, 0, 0);
 */
+
