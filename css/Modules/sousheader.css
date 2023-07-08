@@ -59,3 +59,18 @@ form{
     width: 50px;
     border-radius: 15px 0px 0px 15px;
 }
+
+#search{
+
+    /* Police */
+
+    border: 0px;
+    color: black;
+    font-size: 18px;
+    font-weight:bold;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    text-align: center;
+    height: 49px;
+
+}
