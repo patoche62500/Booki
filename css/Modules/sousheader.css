@@ -3,13 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:35px;
     height:281px;
-}
-
-.headline{
-    gap:8px;    
-    height: 53px;
+    
 }
 
 form{
@@ -41,13 +36,6 @@ form{
 
 .filtre-element:hover{
     background-color: var(--filter-bg-color);
-}
-
-.infogroup-element{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    height: 24px;
 }
 
 #icone{

@@ -1,0 +1,7 @@
+.debug-container{
+    border: 1px solid red
+}
+
+.debug-element{
+    border: 1px solid rgb(255, 123, 0)
+}
