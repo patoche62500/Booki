@@ -1,3 +1,9 @@
+.hebergements {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .hebergements-cards {
     display: flex;
     gap:30px;
