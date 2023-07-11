@@ -3,25 +3,28 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:flex-start;
     height:281px;
-    padding-top:0px;
-    margin:0;
+    width: 1340px;
 }
 
 .infogroup-element{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-   
-    height: 53px;
+    justify-content: space-between;
     width: 1340px;
+    height: 53px;
+    gap: 8px;
+}
+
+.infogroup-element p{
+    font-size: 16px;
+    margin: 0px;
 }
 
 form{
     display: flex;
     width: 377px;
-    height:49px;
+    height:49px; 
 }
 
 form button{
@@ -29,11 +32,10 @@ form button{
     color:white;
     font-weight: 700;
     font-size: 18px;
-    /* Bouton */
+   /*Bouton */
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     border: 0px;
-    height: 49px;
     width: 132px;
 }
 
@@ -44,7 +46,9 @@ form button{
     align-content: center;
     gap: 15px;
     width: 758px;
-    height: 50px;
+    height:50px;
+    list-style: none;
+    padding:0; 
 }
 
 .filtre-element{
@@ -53,9 +57,10 @@ form button{
     align-items: center;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding: 4px 19px 4px 19px;
+    padding: 0px 19px 0px 19px;
     gap: 10px;
-    height: 50px;
+    font-size: 17px;
+    font-weight: 700; 
 }
 
 .filtre-element:hover{
@@ -74,8 +79,6 @@ form button{
 
 #search{
 
-    /* Police */
-
     border: 0px;
     color: black;
     font-size: 18px;
@@ -84,11 +87,12 @@ form button{
     border-bottom: 1px solid #F2F2F2;
     text-align: center;
     height: 49px;
-
 }
 
 .teste-container{
     display: flex;
     align-items: center;
     gap:10px;
+    height:24px;
+    width: 1340px;
 }
