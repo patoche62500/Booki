@@ -1,0 +1,29 @@
+.hebergements-cards {
+    display: flex;
+    gap:30px;
+    
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+
+    height: 207.25px;
+    width: 250.33px;
+}
+
+.hebergements-cards img {
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    border:5px;
+    object-fit:fill;
+}
+
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 64.25px;
+    padding: 0px 15px 0px 15px;
+    gap: 8px;
+
+}

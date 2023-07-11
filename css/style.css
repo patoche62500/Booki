@@ -1,6 +1,7 @@
 /* Module */
 @import 'Modules/header.css';
 @import 'Modules/sousheader.css';
+@import 'Modules/card.css';
 @import 'Modules/debug.css';
 /****** General ***********/
 * {
