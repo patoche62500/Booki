@@ -25,7 +25,7 @@
 form{
     display: flex;
     width: 377px;
-    height:49px; 
+    height:49px;
 }
 
 form button{
@@ -64,11 +64,16 @@ form button{
     font-weight: 700; 
 }
 
+.filtre-element-title{
+    font-size: 18px;
+    font-weight: 700; 
+}
+
 .filtre-element:hover{
     background-color: var(--filter-bg-color);
 }
 
-#icone{
+.icone{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +81,10 @@ form button{
     height: 49px;
     width: 50px;
     border-radius: 15px 0px 0px 15px;
+}
+
+.icone i{
+    color: black;
 }
 
 #search{
