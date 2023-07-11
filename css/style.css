@@ -6,6 +6,10 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    /* reset page web*/
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 :root {
@@ -21,6 +25,11 @@
 body {
     display: flex;
     justify-content: center;
+}
+
+main {
+    display: grid;
+    row-gap: 35px;
 }
 
 .main-container {
