@@ -52,6 +52,7 @@ form button{
 }
 
 .filtre-element{
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +99,7 @@ form button{
     height: 49px;
 }
 
-.teste-container{
+.information-container{
     display: flex;
     align-items: center;
     align-content: center;
@@ -119,4 +120,8 @@ form button{
 
 .search label{
     display: none;
+}
+
+.button-search {
+    padding: 15px 16px 15px 16px;
 }

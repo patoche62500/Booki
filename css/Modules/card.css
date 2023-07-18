@@ -7,7 +7,7 @@
 .hebergements-cards {
     display: flex;
     gap:30px;
-    
+    flex-wrap: wrap;
 }
 
 .hebergements-cards .card {
@@ -42,4 +42,7 @@
 .afficher {
     font-size: 18px;
     font-weight: 700;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
 }
