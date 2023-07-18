@@ -24,13 +24,19 @@
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card-activite img {
+.card-activite-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-activite-img img{
     height: 380px;
+    width: 297.5px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-.card-activite div {
+.card-activite-content {
     width: 297,5;
     height: 59px;
     padding: 20px 19px 20px 19px; 
