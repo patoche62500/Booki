@@ -3,6 +3,7 @@
 @import 'Modules/sousheader.css';
 @import 'Modules/card.css';
 @import 'Modules/debug.css';
+@import 'Modules/activite.css';
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
