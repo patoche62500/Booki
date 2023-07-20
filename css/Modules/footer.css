@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--main-bg-color);
+    height: 163px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-element,
+.footer-container li {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 446.67px;
+}
+
+ul {
+    list-style: none;
+}
+
+.font-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.font-text {
+    font-weight: 400;
+    font-size: 16px;
+}
