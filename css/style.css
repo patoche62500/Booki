@@ -5,6 +5,7 @@
 @import 'Modules/debug.css';
 @import 'Modules/activite.css';
 @import 'Modules/footer.css';
+@import 'Modules/function.css';
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -15,9 +16,18 @@
 }
 
 :root {
+    /* color */
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --color-black:black;
+    /* font */
+    --font-size-title:18px;
+    --font-weight-title:700;
+    --font-size-text:16px;
+    --font-weight-text:400;
+    /* Space */
+    --gap-activite:30px;
 }
 
 .fa-solid {
@@ -174,6 +184,21 @@ main {
     /* ... */
 }
 
+ul,
+ a {
+    color:var(--color-black);
+    text-decoration: none;
+    list-style: none;
+}
 
+.font-title {
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-title); 
+}
+
+.font-text {
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-text);
+}
 
 

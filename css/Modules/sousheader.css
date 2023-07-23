@@ -5,7 +5,6 @@
     justify-content: space-between;
     height:281px;
     width: 1340px;
-    /*margin-bottom: 35px;*/
 }
 
 .infogroup-element{
@@ -18,8 +17,7 @@
 }
 
 .infogroup-element p{
-    font-size: 16px;
-    margin: 0px;
+    font-size: var(--font-size-text);
 }
 
 form{
@@ -31,8 +29,6 @@ form{
 form button{
     /* Police */
     color:white;
-    font-weight: 700;
-    font-size: 18px;
    /*Bouton */
     background-color: var(--main-color);
     border-radius: 0px 15px 15px 0px;
@@ -62,12 +58,7 @@ form button{
     height: 50px;
     gap: 10px;
     font-size: 17px;
-    font-weight: 700; 
-}
-
-.filtre-element-title{
-    font-size: 18px;
-    font-weight: 700; 
+    font-weight: var(--font-weight-title); 
 }
 
 .filtre-element:hover{
@@ -78,20 +69,20 @@ form button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#F2F2F2;
+    background-color:var(--main-bg-color);
     height: 49px;
     width: 50px;
     border-radius: 15px 0px 0px 15px;
 }
 
 .icone i{
-    color: black;
+    color: var(--color-black);
 }
 
 #search{
     border: 0px;
-    color: black;
-    font-size: 18px;
+    color: var(--color-black);
+    font-size: var(--font-size-title);
     font-weight:bold;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
