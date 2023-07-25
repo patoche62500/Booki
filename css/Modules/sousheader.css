@@ -158,7 +158,7 @@ form button{
     }
 
     .filtre-container {
-        width: 335px;
+        width: 375px;
         gap:20px;
     }
 
@@ -176,8 +176,10 @@ form button{
     }
 
     .filtre-element {
-       
+        justify-content:flex-start;
+        width: 162.5px;
         gap:10px;
+        font-size:14px;
     }
 
     form button {
