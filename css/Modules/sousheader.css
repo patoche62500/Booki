@@ -42,8 +42,19 @@ form button{
     align-items: center;
     gap: 15px;
     width: 758px;
-    height:50px;
+    /*height:50px;*/
     list-style: none;
+}
+
+.filtre-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filtre-bouton {
+    display: flex;
+    gap: 15px;
 }
 
 .filtre-element{
@@ -72,6 +83,7 @@ form button{
     height: 49px;
     width: 50px;
     border-radius: 15px 0px 0px 15px;
+    padding:15px;
 }
 
 .icone i{
@@ -114,7 +126,15 @@ form button{
 }
 
 .button-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px 16px 15px 16px;
+}
+
+.button-search i {
+    display: none;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 767.98px) {
@@ -128,11 +148,6 @@ form button{
         width: 375px;
     }
 
-    .filtre-container {
-        width: 335px;
-        gap:20px;
-    }
-
     .form {
         justify-content: center;
         width: 335px;
@@ -142,7 +157,40 @@ form button{
         width: 100%;
     }
 
+    .filtre-container {
+        width: 335px;
+        gap:20px;
+    }
+
     .filtre-title {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .filtre-bouton {
+        display: flex;
+        /*justify-content: space-between;*/
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .filtre-element {
+       
+        gap:10px;
+    }
+
+    form button {
+        border-radius: 15px;
+        width: 49px;
+        height: 49px;
+    }
+
+    .button-search p {
+        display: none;
+    }
+    
+    .button-search i {
+        display: block;
     }
 }
