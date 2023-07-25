@@ -81,7 +81,8 @@ main {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     justify-content: space-between;
 }
 
