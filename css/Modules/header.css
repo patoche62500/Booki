@@ -62,7 +62,7 @@ nav {
     }
 
     .nav-element a:hover {
-        border-top-color: white;
+        border-top: 0;
         border-bottom: 2px solid var(--main-color);
         padding-bottom:14px;
     }
