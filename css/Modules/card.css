@@ -44,3 +44,8 @@
     border: 0;
     text-align: left;
 }
+
+@media (max-width: 767.98px) {
+    /* ... */
+    
+}
