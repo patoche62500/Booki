@@ -1,7 +1,6 @@
 /*Section sous le header*/
 .infogroup-container{
-    /*display: flex;*/
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 1340px;
