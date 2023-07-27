@@ -1,6 +1,5 @@
 .activite-container {
-    /*display: flex;*/
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 559.02px;
     width: 1340px;
@@ -36,4 +35,22 @@
     width: 297,5;
     height: 59px;
     padding: 20px 19px 20px 19px; 
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+    .activite-element {
+        flex-direction: column;
+    }
+
+    .card-activite {
+        width: 315px;
+        height: 200px;
+    }
+
+    .card-activite-img img {
+        height: 141px;
+        width: 100%;
+    }
 }
