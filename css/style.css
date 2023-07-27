@@ -193,6 +193,11 @@ main {
     .populaires-cards .card {
         width: 100%;
     }
+
+    .hebergements-cards .card {
+        width: 100%;
+        height: 207,25px;
+    }
 }
 
 ul,

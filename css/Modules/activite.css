@@ -42,7 +42,7 @@
     /* ... */
     .activite-container,
     .activite-element {
-        width: 0;
+        width: 100%;
         height: 0;
     }
 
