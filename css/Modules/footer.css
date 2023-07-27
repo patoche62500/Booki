@@ -1,5 +1,4 @@
 footer {
-    display: none;
     background-color: var(--main-bg-color);
     height: 163px;
 }
@@ -8,6 +7,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .footer-element,
@@ -16,4 +16,17 @@ footer {
     flex-direction: column;
     gap:15px;
     width: 446.67px;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+    footer {
+        height:0px;
+        margin-top: 1000px;
+    }
+
+    .footer-container {
+        gap: 50px;
+    }
 }

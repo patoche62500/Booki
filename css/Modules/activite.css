@@ -40,6 +40,12 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .activite-container,
+    .activite-element {
+        width: 0;
+        height: 0;
+    }
+
     .activite-element {
         flex-direction: column;
     }
