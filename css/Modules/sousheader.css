@@ -99,6 +99,7 @@ form button{
     border-bottom: 1px solid var(--main-bg-color);
     text-align: center;
     height: 49px;
+    width: 100%;
 }
 
 .information-container{
@@ -135,6 +136,10 @@ form button{
 .button-search i {
     display: none;
     color: rgb(255, 255, 255);
+}
+
+.search {
+    width: 100%;
 }
 
 @media (max-width: 767.98px) {
@@ -178,6 +183,10 @@ form button{
         /*justify-content: space-between;*/
         flex-wrap: wrap;
         gap:20px;
+    }
+
+    .filtre-bouton li {
+        width: 47%;
     }
 
     .filtre-element {

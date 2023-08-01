@@ -43,7 +43,7 @@
     .activite-container,
     .activite-element {
         width: 100%;
-        height: 0;
+        height: 100%;
     }
 
     .activite-element {
