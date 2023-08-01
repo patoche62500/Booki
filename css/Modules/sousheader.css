@@ -146,7 +146,11 @@ form button{
     }
 
     .infogroup-element {
-        width: 375px;
+        width: 100%;
+    }
+
+    form {
+        width:100%;
     }
 
     .form {
@@ -159,7 +163,7 @@ form button{
     }
 
     .filtre-container {
-        width: 375px;
+        width: 100%;
         gap:20px;
     }
 
