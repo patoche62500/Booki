@@ -142,11 +142,25 @@ form button{
     width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .infogroup-container {
+        width: 924px;
+    }
+
+    .infogroup-element {
+        width: 100%;
+    }
+
+    .information-container {
+        width: 100%;
+    }
+}
+
 @media (max-width: 767.98px) {
         /* ... */
 
     .infogroup-container {
-        width: 100%;
+        width: 375px;
         padding: 0px 20px 0px 20px;
     }
 
@@ -210,3 +224,4 @@ form button{
         display: block;
     }
 }
+
