@@ -13,6 +13,8 @@
   width: 100%;
   /*height: 439px;*/
   gap: var(--gap-activite);
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-activite {
@@ -33,9 +35,10 @@
 }
 
 .card-activite-content {
-  width: 297, 5;
   height: 59px;
-  padding: 20px 19px 20px 19px;
+  padding: 0px 19px;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -43,6 +46,12 @@
     /* width: 924px;
     height: 390.02px;*/
   }
+
+  .activite-element {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .card-activite {
     width: 12rem;
   }
@@ -68,7 +77,7 @@
 
   .card-activite {
     width: 100%;
-    max-width: 315px;
+    /*min-width: 315px;*/
     height: 200px;
   }
 

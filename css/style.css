@@ -36,7 +36,12 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+span {
+    display: inline-block;
 }
 
 main {
@@ -164,6 +169,11 @@ main {
   .hebergements-cards .card {
     width: 16.7rem;
   }
+
+  .hebergements-cards {
+    justify-content: center;
+  }
+
   .populaires-cards {
     display: flex;
     flex-direction: row;
