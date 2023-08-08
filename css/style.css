@@ -36,7 +36,6 @@
 body {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
   align-items: center;
 }
 
@@ -164,7 +163,6 @@ main {
 
   .populaires {
     width: 100%;
-    /*margin-top: 50px;*/
   }
   .hebergements-cards .card {
     width: 16.7rem;
@@ -199,7 +197,6 @@ main {
   .hebergements-and-populaires {
     flex-direction: column-reverse;
     width: 100%;
-    /*max-width: 375px;*/
   }
 
   .populaires-cards {

@@ -1,17 +1,13 @@
 .activite-container {
   display: flex;
   flex-direction: column;
-  /*height: 559.02px;*/
-  /*width: 1340px;*/
   padding: 30px;
   gap: var(--gap-activite);
 }
 
 .activite-element {
   display: flex;
-  /*width: 1280px;*/
   width: 100%;
-  /*height: 439px;*/
   gap: var(--gap-activite);
   flex-wrap: wrap;
   justify-content: center;
@@ -21,7 +17,6 @@
   display: flex;
   flex-direction: column;
   width: 297.5px;
-  /*height: 439px;*/
   background-color: white;
   border-radius: 20px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -42,10 +37,6 @@
 }
 
 @media (max-width: 1024px) {
-  .activite-container {
-    /* width: 924px;
-    height: 390.02px;*/
-  }
 
   .activite-element {
     flex-wrap: wrap;
@@ -77,7 +68,6 @@
 
   .card-activite {
     width: 100%;
-    /*min-width: 315px;*/
     height: 200px;
   }
 
